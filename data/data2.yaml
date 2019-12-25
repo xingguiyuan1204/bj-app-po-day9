@@ -1,0 +1,7 @@
+value1: &data
+ name1: 李四
+ name2: 马六
+
+value2:
+ <<: *data
+ name3: 赵四

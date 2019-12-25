@@ -1,0 +1,37 @@
+#value:
+# name: "马六"
+# name2: [1,2,3]
+#
+#value1:
+# - name1: 王五
+#   name2: 张三
+# - name3: 赵四
+#
+#value2:
+# - true
+# - false
+#
+#value3:
+# TRUE
+# FALSE
+#
+#value4:
+# - 12
+# - 12.01
+
+#空
+value5: ~ #空
+value6: #没有任何内容
+value7: null  #支持
+value8 : Null  #支持
+
+value9: None  #不支持
+value10: none  #不支持
+value11: ""  #不支持
+
+#日期
+value12: 2020-11-15 12:24:36
+value13: 2020-12-14
+
+value14: 12:11:45  #返回整数
+value15: 2020-11-26 03:09:04 #各位要补零
